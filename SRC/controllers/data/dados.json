@@ -1,0 +1,55 @@
+{
+  "medicamentos": [
+    {
+      "id": 1,
+      "nome": "paracetamol",
+      "fabricante": "bayer",
+      "preco": 8.99,
+      "quantidade": 10
+    },
+    {
+      "id": 3,
+      "nome": "buscopan",
+      "fabricante": "bayer",
+      "preco": 7.52,
+      "quantidade": 52
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Nome Cliente",
+      "endereco": "End Cliente",
+      "email": "email cliente",
+      "telefone": "tel cliente"
+    }
+  ],
+  "fornecedores": [
+    {
+      "id": 1,
+      "nome": "Fornecedor1",
+      "endereco": "End Fornecedor1",
+      "telefone": "5135920128"
+    },
+    {
+      "id": 2,
+      "nome": "Fornecedor2",
+      "endereco": "End Fornecedor2",
+      "telefone": "2"
+    }
+  ],
+  "vendas": [
+    {
+      "id": 1,
+      "data": "2023/11/23",
+      "id_medicamento": 1,
+      "id_cliente": 1
+    },
+    {
+      "id": 3,
+      "data": "2023/11/11",
+      "id_medicamento": 2,
+      "id_cliente": 1
+    }
+  ]
+}

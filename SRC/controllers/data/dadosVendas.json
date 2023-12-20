@@ -1,0 +1,28 @@
+{
+  "Venda": [
+    {
+      "id": 1,
+      "data": "2023-11-23",
+      "id_medicamento": "1",
+      "id_cliente": "1"
+    },
+    {
+      "id": "2",
+      "data": "2023-11-11",
+      "id_medicamento": "2",
+      "id_cliente": "2"
+    },
+    {
+      "id": "3",
+      "data": "2023-12-11",
+      "id_medicamento": "3",
+      "id_cliente": "3"
+    },
+    {
+      "id": "4",
+      "data": "2023-12-05",
+      "id_medicamento": "4",
+      "id_cliente": "4"
+    }
+  ]
+}

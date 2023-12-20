@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Clientes</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <a href="./telaPrincipal.html">Home</a>
+        
+
+    </header>
+
+    <main>
+        <form id="formAdicionarCliente">
+            <h2>Adicionar Cliente</h2>
+        
+            <label for="idCliente">id:</label>
+            <input type="text" id="idCliente" required>
+
+            <label for="nomeCliente">Nome:</label>
+            <input type="text" id="nomeCliente" required>
+            
+            <label for="emailCliente">Email:</label>
+            <input type="text" id="emailCliente" required>
+            
+            <label for="enderecoCliente">Endereço:</label>
+            <input type="text" id="enderecoCliente" required>
+            
+            <label for="telefoneCliente">Telefone:</label>
+            <input type="text" id="telefoneCliente" required>
+        
+            <button type="button" onclick="adicionarCliente()">Adicionar</button>
+        </form>
+    </main>
+
+    <section>
+        <h2>Lista de Clientes:</h2>
+        <ul id="listaClientes"></ul>    
+    </section>
+
+    <script src="../clients/clientes.js"></script>
+</body>
+</html>

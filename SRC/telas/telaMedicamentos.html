@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Medicamentos</title>
+    <link rel="stylesheet" href="./style.css"> 
+</head>
+<body>
+    <header>
+        <a href="./telaPrincipal.html">Home</a>
+
+    </header>
+    
+    <main>
+        <form id="formAdicionarMedicamento">
+            <h2>Adicionar Medicamento</h2>
+            
+            <label for="idMedicamento">id:</label>
+            <input type="text" id="idMedicamento" required>
+
+            <label for="nomeMedicamento">Nome:</label>
+            <input type="text" id="nomeMedicamento" required>
+            
+            <label for="fabricanteMedicamento">Fabricante:</label>
+            <input type="text" id="fabricanteMedicamento" required>
+            
+            <label for="precoMedicamento">Preço:</label>
+            <input type="text" id="precoMedicamento" required>
+
+            <label for="quantidadeMedicamento">Quantidade:</label>
+            <input type="text" id="quantidadeMedicamento" required>
+        
+            <button type="button" onclick="adicionarMedicamento()">Adicionar</button>
+        </form>
+    </main>
+
+    <section>
+        <h2>Lista de Medicamentos:</h2>
+        <ul id="listaMedicamentos"></ul>
+    </section>
+
+    <script src="../clients/medicamentos.js"></script>
+</body>
+</html>
